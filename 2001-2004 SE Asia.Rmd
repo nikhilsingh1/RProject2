@@ -2,7 +2,7 @@
 #2001
 
 ```{r}
-data <- readLines("VOSClim_GTS_jan_2001.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2001/VOSClim_GTS_jan_2001.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -17,7 +17,7 @@ names(data.clean.jan2001) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_feb_2001.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2001/VOSClim_GTS_feb_2001.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -32,7 +32,7 @@ names(data.clean.feb2001) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_mar_2001.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2001/VOSClim_GTS_mar_2001.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -48,7 +48,7 @@ names(data.clean.mar2001) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_apr_2001.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2001/VOSClim_GTS_apr_2001.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -64,7 +64,7 @@ names(data.clean.apr2001) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_may_2001.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2001/VOSClim_GTS_may_2001.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -80,7 +80,7 @@ names(data.clean.may2001) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_jun_2001.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2001/VOSClim_GTS_jun_2001.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -96,7 +96,7 @@ names(data.clean.jun2001) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_jul_2001.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2001/VOSClim_GTS_jul_2001.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -111,7 +111,7 @@ names(data.clean.jul2001) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_aug_2001.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2001/VOSClim_GTS_aug_2001.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -127,7 +127,7 @@ names(data.clean.aug2001) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_sep_2001.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2001/VOSClim_GTS_sep_2001.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -142,7 +142,7 @@ names(data.clean.sep2001) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_oct_2001.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2001/VOSClim_GTS_oct_2001.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -157,7 +157,7 @@ names(data.clean.oct2001) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_nov_2001.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2001/VOSClim_GTS_nov_2001.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -172,7 +172,7 @@ names(data.clean.nov2001) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_dec_2001.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2001/VOSClim_GTS_dec_2001.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -194,14 +194,10 @@ data.2001 <- rbind(data.clean.jan2001, data.clean.feb2001, data.clean.mar2001, d
 
 
 
-#??
-#latitude.range <- subset(data.2001, LAT >= -614 & LAT <= 1865)
-#longitude.range <- subset(data.2001, LON >= 108 & LON <= 136)
-
 #2002
 
 ```{r}
-data <- readLines("VOSClim_GTS_jan_2002.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2002/VOSClim_GTS_jan_2002.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -216,7 +212,7 @@ names(data.clean.jan2002) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
  
 
 
-data <- readLines("VOSClim_GTS_feb_2002.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2002/VOSClim_GTS_feb_2002.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -231,7 +227,7 @@ names(data.clean.feb2002) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_mar_2002.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2002/VOSClim_GTS_mar_2002.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -247,7 +243,7 @@ names(data.clean.mar2002) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_apr_2002.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2002/VOSClim_GTS_apr_2002.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -263,7 +259,7 @@ names(data.clean.apr2002) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_may_2002.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2002/VOSClim_GTS_may_2002.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -279,7 +275,7 @@ names(data.clean.may2002) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_jun_2002.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2002/VOSClim_GTS_jun_2002.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -295,7 +291,7 @@ names(data.clean.jun2002) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_jul_2002.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2002/VOSClim_GTS_jul_2002.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -310,7 +306,7 @@ names(data.clean.jul2002) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_aug_2002.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2002/VOSClim_GTS_aug_2002.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -326,7 +322,7 @@ names(data.clean.aug2002) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_sep_2002.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2002/VOSClim_GTS_sep_2002.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -341,7 +337,7 @@ names(data.clean.sep2002) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_oct_2002.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2002/VOSClim_GTS_oct_2002.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -357,7 +353,7 @@ names(data.clean.oct2002) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_nov_2002.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2002/VOSClim_GTS_nov_2002.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -373,7 +369,8 @@ names(data.clean.nov2002) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_dec_2002.txt")
+
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2002/VOSClim_GTS_dec_2002.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -390,10 +387,13 @@ names(data.clean.dec2002) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 data.2002 <- rbind(data.clean.jan2002, data.clean.feb2002, data.clean.mar2002, data.clean.apr2002, data.clean.may2002, data.clean.jun2002, data.clean.jul2002, data.clean.aug2002, data.clean.sep2002, data.clean.oct2002, data.clean.nov2002, data.clean.dec2002)
 ``` 
 
+
+
+
 #2003
 
 ```{r}
-data <- readLines("VOSClim_GTS_jan_2003.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2003/VOSClim_GTS_jan_2003.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -409,7 +409,7 @@ names(data.clean.jan2003) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_feb_2003.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2003/VOSClim_GTS_feb_2003.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -425,7 +425,7 @@ names(data.clean.feb2003) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_mar_2003.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2003/VOSClim_GTS_mar_2003.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -445,7 +445,7 @@ names(data.clean.mar2003) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_apr_2003.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2003/VOSClim_GTS_apr_2003.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -465,7 +465,7 @@ names(data.clean.apr2003) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_may_2003.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2003/VOSClim_GTS_may_2003.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -484,7 +484,7 @@ names(data.clean.may2003) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_jun_2003.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2003/VOSClim_GTS_jun_2003.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -501,7 +501,7 @@ names(data.clean.jun2003) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_jul_2003.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2003/VOSClim_GTS_jul_2003.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -520,7 +520,7 @@ names(data.clean.jul2003) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_aug_2003.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2003/VOSClim_GTS_aug_2003.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -540,7 +540,7 @@ names(data.clean.aug2003) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_sep_2003.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2003/VOSClim_GTS_sep_2003.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -558,7 +558,7 @@ names(data.clean.sep2003) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_oct_2003.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2003/VOSClim_GTS_oct_2003.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -579,10 +579,7 @@ names(data.clean.oct2003) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-
-
-
-data <- readLines("VOSClim_GTS_nov_2003.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2003/VOSClim_GTS_nov_2003.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -600,7 +597,7 @@ names(data.clean.nov2003) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_dec_2003.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2003/VOSClim_GTS_dec_2003.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -622,10 +619,11 @@ data.2003 <- rbind(data.clean.jan2003, data.clean.feb2003, data.clean.mar2003, d
 
 
 
+#2004
 ```{r}
-#2004 
 
-data <- readLines("VOSClim_GTS_jan_2004.txt")
+
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2004/VOSClim_GTS_jan_2004.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -641,7 +639,7 @@ names(data.clean.jan2004) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_feb_2004.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2004/VOSClim_GTS_feb_2004.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -657,7 +655,7 @@ names(data.clean.feb2004) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_mar_2004.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2004/VOSClim_GTS_mar_2004.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -677,7 +675,7 @@ names(data.clean.mar2004) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_apr_2004.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2004/VOSClim_GTS_apr_2004.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -695,7 +693,7 @@ names(data.clean.apr2004) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_may_2004.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2004/VOSClim_GTS_may_2004.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -714,7 +712,7 @@ names(data.clean.may2004) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_jun_2004.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2004/VOSClim_GTS_jun_2004.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -731,7 +729,7 @@ names(data.clean.jun2004) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_jul_2004.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2004/VOSClim_GTS_jul_2004.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -750,7 +748,7 @@ names(data.clean.jul2004) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_aug_2004.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2004/VOSClim_GTS_aug_2004.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -770,7 +768,7 @@ names(data.clean.aug2004) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_sep_2004.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2004/VOSClim_GTS_sep_2004.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -788,7 +786,7 @@ names(data.clean.sep2004) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_oct_2004.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2004/VOSClim_GTS_oct_2004.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -810,7 +808,7 @@ names(data.clean.oct2004) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_nov_2004.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2004/VOSClim_GTS_nov_2004.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
@@ -828,7 +826,7 @@ names(data.clean.nov2004) <- c("YR", "MO", "DY", "HR", "LAT", "LON", "IT", "AT",
 
 
 
-data <- readLines("VOSClim_GTS_dec_2004.txt")
+data <- readLines("https://www1.ncdc.noaa.gov/pub/data/vosclim/2004/VOSClim_GTS_dec_2004.txt")
 
 df <- NULL
 for (i in 1:length(data)) {
